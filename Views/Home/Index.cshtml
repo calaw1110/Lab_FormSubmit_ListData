@@ -1,0 +1,35 @@
+﻿@model CarListViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<form method="post" asp-action="test">
+    <button type="button" class="btn btn-outline-primary" onclick="Create()">新增</button>
+    <div class="div-input">
+        <input type="text" class="name-input" asp-for="CarList[0].Name" />欄位1
+    </div>
+    <button type="submit" class="btn btn-primary">送出</button>
+</form>
+<script>
+    function Create() {
+        let targetQuery = $("form .div-input");
+        let index = targetQuery.length;
+        let html =
+            `
+            <div class="div-input">
+                <input type="text" class="name-input" name="CarList[${index}].Name" />欄位${index + 1}
+                <button class="btn btn-danger" onclick="Delete(this)">刪除</button>
+            </div>
+            `;
+        targetQuery.last().after(html);
+    }
+    function Delete(btn) {
+        let triggerBtn = $(btn);
+        triggerBtn.closest(".div-input").remove();
+        // // 移除 欄位後 重新計算 index 並更新欄位 index
+        // let length = $(".name-input").length;
+        // for (let i = 0; i < length; i++) {
+        // $(".name-input").eq(i).attr("name", "CarList[" + i + "].Name")
+        // }
+
+    }
+</script>
