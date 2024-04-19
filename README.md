@@ -1,33 +1,33 @@
 # Lab_FormSubmit_ListData
-## ¹êÅç Form Submit ±µ¦¬ List Data ±¡ªp¬ö¿ı
-### ¨Ï¥Î Asp .Net Core MVC
-### µ{¦¡½X¬ö¿ı
-* Model ©w¸qModel¡BViewModel
+## å¯¦é©— Form Submit æ¥æ”¶ List Data æƒ…æ³ç´€éŒ„
+### ä½¿ç”¨ Asp .Net Core MVC
+### ç¨‹å¼ç¢¼ç´€éŒ„
+* Model å®šç¾©Modelã€ViewModel
 
-![image](https://imgur.com/BhM6dBm)
+![image](https://imgur.com/BhM6dBm.jpg)
 
-* Controller «Ø¥ß¤@­Ó¤èªkµ¹ Form Submit Endpoint
+* Controller å»ºç«‹ä¸€å€‹æ–¹æ³•çµ¦ Form Submit Endpoint
 
-![image](https://imgur.com/P3xpyRN)
+![image](https://imgur.com/P3xpyRN.jpg)
 
 * View 
 
-![image](https://imgur.com/BrQBPq7)
+![image](https://imgur.com/BrQBPq7.jpg)
 
 
-### ª¬ªp ¨Ï¥Î JS °ÊºA·s¼WÄæ¦ì¡A¨Ã¥B§R°£«áµL­«·s±Æ§Ç
+### ç‹€æ³ ä½¿ç”¨ JS å‹•æ…‹æ–°å¢æ¬„ä½ï¼Œä¸¦ä¸”åˆªé™¤å¾Œç„¡é‡æ–°æ’åº
 
-#### ²£¥Í«eºİ´ú¸Õµe­±
-![image](https://imgur.com/zcJoLRN)
-![image](https://imgur.com/sac9TZa)
+#### ç”¢ç”Ÿå‰ç«¯æ¸¬è©¦ç•«é¢
+![image](https://imgur.com/zcJoLRN.jpg)
+![image](https://imgur.com/sac9TZa.jpg)
 
-`¦]¨Ï¥Î Form Submit ¾÷¨î¡A«Ø¥ßinput®É ¨Ï¥Î name=CarList[index].Name °e¸ê®Æ¨ì«áºİ¡A
-¤~¯à¨Ï¥Î CarListViewModel Binding ±µ¦¬¸ê®Æ`
+`å› ä½¿ç”¨ Form Submit æ©Ÿåˆ¶ï¼Œå»ºç«‹inputæ™‚ ä½¿ç”¨ name=CarList[index].Name é€è³‡æ–™åˆ°å¾Œç«¯ï¼Œ
+æ‰èƒ½ä½¿ç”¨ CarListViewModel Binding æ¥æ”¶è³‡æ–™`
 
-#### «áºİ±µ¦¬¸ê®Æ±¡ªp
+#### å¾Œç«¯æ¥æ”¶è³‡æ–™æƒ…æ³
 
-![image](https://imgur.com/OXyF4gU)
+![image](https://imgur.com/OXyF4gU.jpg)
 
-![image](https://imgur.com/gKk3LOj)
+![image](https://imgur.com/gKk3LOj.jpg)
 
-`¶È±µ¦¬¨ì «e¤Tµ§ ±q 0 ¶}©lªº³sÄò¸ê®Æ`
+`åƒ…æ¥æ”¶åˆ° å‰ä¸‰ç­† å¾ 0 é–‹å§‹çš„é€£çºŒè³‡æ–™`
